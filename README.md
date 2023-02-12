@@ -11,3 +11,12 @@ Matmul - This function multiplies two matrices with each other. It also works ni
 Invert - This function should take  square matrix and computer another square matrix such that matmul(A,invert(A)) is always the unit matrix. 
 
 loadtxt - this function takes as an argument the name of a file. The file should contain several lines, where each line contains space-separated numbers. 
+
+To run a specific function you'd write it in your terminal:
+
+>>>from matrix import matmul
+>>>matmul([[1, 2, 3], [4, 5, 6]],[[7,8,9,10],[11,12,13,14],[15,16,17,18]])
+
+The expected answer would be 
+[[74, 80, 86, 92], [173, 188, 203, 218]] 
+if everything is ran correctly
